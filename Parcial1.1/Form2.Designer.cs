@@ -40,6 +40,7 @@ namespace Parcial1._1
             this.txtPalabra = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.btnLimpiar = new System.Windows.Forms.Button();
+            this.btnSiguiente = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCalcular
@@ -138,11 +139,22 @@ namespace Parcial1._1
             this.btnLimpiar.UseVisualStyleBackColor = true;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
+            // btnSiguiente
+            // 
+            this.btnSiguiente.Location = new System.Drawing.Point(775, 125);
+            this.btnSiguiente.Name = "btnSiguiente";
+            this.btnSiguiente.Size = new System.Drawing.Size(75, 23);
+            this.btnSiguiente.TabIndex = 13;
+            this.btnSiguiente.Text = "SIGUIENTE";
+            this.btnSiguiente.UseVisualStyleBackColor = true;
+            this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(873, 160);
+            this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtPalabra);
@@ -174,5 +186,6 @@ namespace Parcial1._1
         private System.Windows.Forms.TextBox txtPalabra;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnLimpiar;
+        private System.Windows.Forms.Button btnSiguiente;
     }
 }

@@ -44,5 +44,14 @@ namespace Parcial1._1
 
             frm.Show();
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            Form2 frm = new Form2();
+
+            frm.Show();
+        }
     }
 }

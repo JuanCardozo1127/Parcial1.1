@@ -26,6 +26,15 @@ namespace Parcial1._1
             txtPalabra.Clear();
         }
 
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            Form1 frm = new Form1();
+
+            frm.Show();
+        }
+
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 

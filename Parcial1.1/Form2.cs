@@ -70,5 +70,14 @@ namespace Parcial1._1
         {
 
         }
+
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            Form3 frm = new Form3();
+
+            frm.Show();
+        }
     }
 }
