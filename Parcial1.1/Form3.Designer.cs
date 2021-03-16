@@ -36,11 +36,13 @@ namespace Parcial1._1
             this.btnCalcular = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnRegresar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnRegresar);
             this.groupBox1.Controls.Add(this.btn_Siguiente);
             this.groupBox1.Controls.Add(this.btnBorrar);
             this.groupBox1.Controls.Add(this.label2);
@@ -56,7 +58,7 @@ namespace Parcial1._1
             // 
             // btn_Siguiente
             // 
-            this.btn_Siguiente.Location = new System.Drawing.Point(274, 93);
+            this.btn_Siguiente.Location = new System.Drawing.Point(285, 129);
             this.btn_Siguiente.Name = "btn_Siguiente";
             this.btn_Siguiente.Size = new System.Drawing.Size(75, 23);
             this.btn_Siguiente.TabIndex = 11;
@@ -66,7 +68,7 @@ namespace Parcial1._1
             // 
             // btnBorrar
             // 
-            this.btnBorrar.Location = new System.Drawing.Point(145, 93);
+            this.btnBorrar.Location = new System.Drawing.Point(87, 129);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(75, 23);
             this.btnBorrar.TabIndex = 10;
@@ -84,7 +86,7 @@ namespace Parcial1._1
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(30, 93);
+            this.btnCalcular.Location = new System.Drawing.Point(6, 129);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(75, 23);
             this.btnCalcular.TabIndex = 8;
@@ -108,11 +110,21 @@ namespace Parcial1._1
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 6;
             // 
+            // btnRegresar
+            // 
+            this.btnRegresar.Location = new System.Drawing.Point(181, 129);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(75, 23);
+            this.btnRegresar.TabIndex = 12;
+            this.btnRegresar.Text = "REGRESAR";
+            this.btnRegresar.UseVisualStyleBackColor = true;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(408, 257);
+            this.ClientSize = new System.Drawing.Size(430, 257);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form3";
             this.Text = "Form3";
@@ -131,5 +143,6 @@ namespace Parcial1._1
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnRegresar;
     }
 }
