@@ -39,7 +39,6 @@ namespace Parcial1._1
         }
         public void volvear() {
 
-            for(int x = )
         }
     }
 }
