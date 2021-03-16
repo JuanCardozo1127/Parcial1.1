@@ -62,6 +62,7 @@ namespace Parcial1._1
             this.btn_Siguiente.TabIndex = 11;
             this.btn_Siguiente.Text = "SIGUIENTE";
             this.btn_Siguiente.UseVisualStyleBackColor = true;
+            this.btn_Siguiente.Click += new System.EventHandler(this.btn_Siguiente_Click);
             // 
             // btnBorrar
             // 

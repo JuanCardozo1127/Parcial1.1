@@ -35,5 +35,14 @@ namespace Parcial1._1
             textBox1.Text = "";
             label2.Text = "";
         }
+
+        private void btn_Siguiente_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            Form4 frm = new Form4();
+
+            frm.Show();
+        }
     }
 }
