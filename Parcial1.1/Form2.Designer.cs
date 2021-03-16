@@ -40,6 +40,8 @@ namespace Parcial1._1
             this.label5 = new System.Windows.Forms.Label();
             this.txtPalabra = new System.Windows.Forms.TextBox();
             this.txtResultado = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.btnLimpiar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCalcular
@@ -135,11 +137,32 @@ namespace Parcial1._1
             this.txtResultado.Size = new System.Drawing.Size(100, 20);
             this.txtResultado.TabIndex = 10;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(541, 71);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(10, 13);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "-";
+            // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.Location = new System.Drawing.Point(308, 125);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
+            this.btnLimpiar.TabIndex = 12;
+            this.btnLimpiar.Text = "LIMPIAR";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(873, 160);
+            this.Controls.Add(this.btnLimpiar);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.txtPalabra);
             this.Controls.Add(this.label5);
@@ -171,5 +194,7 @@ namespace Parcial1._1
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtPalabra;
         private System.Windows.Forms.TextBox txtResultado;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnLimpiar;
     }
 }
