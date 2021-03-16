@@ -59,5 +59,10 @@ namespace Parcial1._1
             label6.Text = Convert.ToString("-");
             label3.Text = Convert.ToString("-");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            volvear();
+        }
     }
 }
