@@ -32,5 +32,14 @@ namespace Parcial1._1
         {
 
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+        public void volvear() {
+
+            for(int x = )
+        }
     }
 }
