@@ -37,9 +37,9 @@ namespace Parcial1._1
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.txtPalabra = new System.Windows.Forms.TextBox();
-            this.txtResultado = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.btnLimpiar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCalcular
@@ -101,6 +101,7 @@ namespace Parcial1._1
             this.button1.TabIndex = 6;
             this.button1.Text = "Voltear palabra";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label4
             // 
@@ -111,16 +112,6 @@ namespace Parcial1._1
             this.label4.TabIndex = 7;
             this.label4.Text = "Palabra:";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(493, 38);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Resultado:";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
             // txtPalabra
             // 
             this.txtPalabra.Location = new System.Drawing.Point(557, 9);
@@ -128,21 +119,33 @@ namespace Parcial1._1
             this.txtPalabra.Size = new System.Drawing.Size(100, 20);
             this.txtPalabra.TabIndex = 9;
             // 
-            // txtResultado
+            // label6
             // 
-            this.txtResultado.Location = new System.Drawing.Point(557, 38);
-            this.txtResultado.Name = "txtResultado";
-            this.txtResultado.Size = new System.Drawing.Size(100, 20);
-            this.txtResultado.TabIndex = 10;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(505, 45);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(10, 13);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "-";
+            // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.Location = new System.Drawing.Point(335, 125);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
+            this.btnLimpiar.TabIndex = 12;
+            this.btnLimpiar.Text = "LIMPIAR";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(873, 160);
-            this.Controls.Add(this.txtResultado);
+            this.Controls.Add(this.btnLimpiar);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.txtPalabra);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
@@ -168,8 +171,8 @@ namespace Parcial1._1
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtPalabra;
-        private System.Windows.Forms.TextBox txtResultado;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnLimpiar;
     }
 }
