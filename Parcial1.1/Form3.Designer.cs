@@ -58,7 +58,7 @@ namespace Parcial1._1
             // 
             // btn_Siguiente
             // 
-            this.btn_Siguiente.Location = new System.Drawing.Point(285, 129);
+            this.btn_Siguiente.Location = new System.Drawing.Point(276, 141);
             this.btn_Siguiente.Name = "btn_Siguiente";
             this.btn_Siguiente.Size = new System.Drawing.Size(75, 23);
             this.btn_Siguiente.TabIndex = 11;
@@ -68,7 +68,7 @@ namespace Parcial1._1
             // 
             // btnBorrar
             // 
-            this.btnBorrar.Location = new System.Drawing.Point(87, 129);
+            this.btnBorrar.Location = new System.Drawing.Point(87, 141);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(75, 23);
             this.btnBorrar.TabIndex = 10;
@@ -79,14 +79,14 @@ namespace Parcial1._1
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(-56, 116);
+            this.label2.Location = new System.Drawing.Point(27, 93);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 13);
             this.label2.TabIndex = 9;
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(6, 129);
+            this.btnCalcular.Location = new System.Drawing.Point(6, 141);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(75, 23);
             this.btnCalcular.TabIndex = 8;
@@ -112,7 +112,7 @@ namespace Parcial1._1
             // 
             // btnRegresar
             // 
-            this.btnRegresar.Location = new System.Drawing.Point(181, 129);
+            this.btnRegresar.Location = new System.Drawing.Point(181, 141);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(75, 23);
             this.btnRegresar.TabIndex = 12;
@@ -124,7 +124,7 @@ namespace Parcial1._1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(430, 257);
+            this.ClientSize = new System.Drawing.Size(411, 257);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form3";
             this.Text = "Form3";
