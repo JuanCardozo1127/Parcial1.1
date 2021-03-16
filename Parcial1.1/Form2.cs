@@ -40,6 +40,7 @@ namespace Parcial1._1
 
         }
         public void volvear() {
+
             f1 = txtPalabra.Text;
             
             for (int x = f1.Length - 1; x>=0; x--)
