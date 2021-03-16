@@ -66,5 +66,9 @@ namespace Parcial1._1
             label6.Text = Convert.ToString("-");
             label3.Text = Convert.ToString("-");
         }
+        public void SumaDificil()
+        {
+
+        }
     }
 }
