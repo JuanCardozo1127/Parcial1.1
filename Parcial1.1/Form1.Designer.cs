@@ -38,11 +38,26 @@ namespace Parcial1._1
             this.btnNumMayor = new System.Windows.Forms.Button();
             this.lblResultado = new System.Windows.Forms.Label();
             this.btnLimpiar = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtCadena = new System.Windows.Forms.TextBox();
+            this.txtA = new System.Windows.Forms.TextBox();
+            this.txtU = new System.Windows.Forms.TextBox();
+            this.txtO = new System.Windows.Forms.TextBox();
+            this.txtI = new System.Windows.Forms.TextBox();
+            this.txtE = new System.Windows.Forms.TextBox();
+            this.btnComprobar = new System.Windows.Forms.Button();
+            this.btnNuevo = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(54, 255);
             this.button1.Location = new System.Drawing.Point(343, 395);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -122,11 +137,152 @@ namespace Parcial1._1
             this.btnLimpiar.UseVisualStyleBackColor = true;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.btnNuevo);
+            this.groupBox1.Controls.Add(this.btnComprobar);
+            this.groupBox1.Controls.Add(this.txtE);
+            this.groupBox1.Controls.Add(this.txtI);
+            this.groupBox1.Controls.Add(this.txtO);
+            this.groupBox1.Controls.Add(this.txtU);
+            this.groupBox1.Controls.Add(this.txtA);
+            this.groupBox1.Controls.Add(this.txtCadena);
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Location = new System.Drawing.Point(361, 25);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(386, 189);
+            this.groupBox1.TabIndex = 9;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "CONTAR VOCAL";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(63, 90);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(14, 13);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "A";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(124, 90);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(14, 13);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "E";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(180, 90);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(10, 13);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "I";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(231, 90);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(15, 13);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "O";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(288, 90);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(15, 13);
+            this.label8.TabIndex = 4;
+            this.label8.Text = "U";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(26, 41);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(51, 13);
+            this.label9.TabIndex = 5;
+            this.label9.Text = "CADENA";
+            // 
+            // txtCadena
+            // 
+            this.txtCadena.Location = new System.Drawing.Point(83, 38);
+            this.txtCadena.Name = "txtCadena";
+            this.txtCadena.Size = new System.Drawing.Size(220, 20);
+            this.txtCadena.TabIndex = 6;
+            // 
+            // txtA
+            // 
+            this.txtA.Location = new System.Drawing.Point(52, 106);
+            this.txtA.Name = "txtA";
+            this.txtA.Size = new System.Drawing.Size(48, 20);
+            this.txtA.TabIndex = 7;
+            // 
+            // txtU
+            // 
+            this.txtU.Location = new System.Drawing.Point(268, 106);
+            this.txtU.Name = "txtU";
+            this.txtU.Size = new System.Drawing.Size(48, 20);
+            this.txtU.TabIndex = 8;
+            // 
+            // txtO
+            // 
+            this.txtO.Location = new System.Drawing.Point(214, 106);
+            this.txtO.Name = "txtO";
+            this.txtO.Size = new System.Drawing.Size(48, 20);
+            this.txtO.TabIndex = 9;
+            // 
+            // txtI
+            // 
+            this.txtI.Location = new System.Drawing.Point(160, 106);
+            this.txtI.Name = "txtI";
+            this.txtI.Size = new System.Drawing.Size(48, 20);
+            this.txtI.TabIndex = 10;
+            // 
+            // txtE
+            // 
+            this.txtE.Location = new System.Drawing.Point(106, 106);
+            this.txtE.Name = "txtE";
+            this.txtE.Size = new System.Drawing.Size(48, 20);
+            this.txtE.TabIndex = 11;
+            // 
+            // btnComprobar
+            // 
+            this.btnComprobar.Location = new System.Drawing.Point(72, 156);
+            this.btnComprobar.Name = "btnComprobar";
+            this.btnComprobar.Size = new System.Drawing.Size(82, 23);
+            this.btnComprobar.TabIndex = 12;
+            this.btnComprobar.Text = "CONSULTAR";
+            this.btnComprobar.UseVisualStyleBackColor = true;
+            this.btnComprobar.Click += new System.EventHandler(this.btnComprobar_Click);
+            // 
+            // btnNuevo
+            // 
+            this.btnNuevo.Location = new System.Drawing.Point(214, 156);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(89, 23);
+            this.btnNuevo.TabIndex = 13;
+            this.btnNuevo.Text = "NUEVO";
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnNumMayor);
@@ -138,6 +294,8 @@ namespace Parcial1._1
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -154,6 +312,21 @@ namespace Parcial1._1
         private System.Windows.Forms.Button btnNumMayor;
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Button btnLimpiar;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox txtA;
+        private System.Windows.Forms.TextBox txtCadena;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnNuevo;
+        private System.Windows.Forms.Button btnComprobar;
+        private System.Windows.Forms.TextBox txtE;
+        private System.Windows.Forms.TextBox txtI;
+        private System.Windows.Forms.TextBox txtO;
+        private System.Windows.Forms.TextBox txtU;
     }
 }
 
