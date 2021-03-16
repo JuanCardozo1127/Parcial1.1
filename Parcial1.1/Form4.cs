@@ -16,5 +16,43 @@ namespace Parcial1._1
         {
             InitializeComponent();
         }
+        string palabra, inverso, car;
+        int tamaño;
+
+        private void btnBorrar_Click(object sender, EventArgs e)
+        {
+            txtInversa.Text = "";
+            txtPolindromo.Text = "";
+            txtPalabra.Clear();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnVerificar_Click(object sender, EventArgs e)
+        {
+            palabra = txtPalabra.Text.Trim(); 
+            tamaño = palabra.Length;
+            inverso = "";
+            for (int x = tamaño - 1; x >= 0; x--)
+            {
+                car = palabra.Substring(x, 1);
+                inverso = inverso + car;
+            }
+
+            txtInversa.Text = inverso;
+
+            if (palabra == inverso)
+            {
+                txtPolindromo.Text = "Es palindromo";
+            }
+            else
+            {
+                txtPolindromo.Text = "No Es palindromo";
+            }
+        }
+
     }
 }
