@@ -53,6 +53,9 @@ namespace Parcial1._1
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.btnPangrama = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
+            this.lblPangrama = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -277,11 +280,42 @@ namespace Parcial1._1
             this.label4.TabIndex = 0;
             this.label4.Text = "A";
             // 
+            // btnPangrama
+            // 
+            this.btnPangrama.Location = new System.Drawing.Point(216, 336);
+            this.btnPangrama.Name = "btnPangrama";
+            this.btnPangrama.Size = new System.Drawing.Size(73, 40);
+            this.btnPangrama.TabIndex = 10;
+            this.btnPangrama.Text = "MOSTRAR";
+            this.btnPangrama.UseVisualStyleBackColor = true;
+            this.btnPangrama.Click += new System.EventHandler(this.btnPangrama_Click);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(66, 309);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(68, 13);
+            this.label10.TabIndex = 11;
+            this.label10.Text = "PANGRAMA";
+            // 
+            // lblPangrama
+            // 
+            this.lblPangrama.AutoSize = true;
+            this.lblPangrama.Location = new System.Drawing.Point(23, 350);
+            this.lblPangrama.Name = "lblPangrama";
+            this.lblPangrama.Size = new System.Drawing.Size(10, 65);
+            this.lblPangrama.TabIndex = 12;
+            this.lblPangrama.Text = "-\r\n-\r\n-\r\n-\r\n-";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblPangrama);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.btnPangrama);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.lblResultado);
@@ -327,6 +361,9 @@ namespace Parcial1._1
         private System.Windows.Forms.TextBox txtI;
         private System.Windows.Forms.TextBox txtO;
         private System.Windows.Forms.TextBox txtU;
+        private System.Windows.Forms.Button btnPangrama;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lblPangrama;
     }
 }
 

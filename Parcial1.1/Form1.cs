@@ -57,6 +57,44 @@ namespace Parcial1._1
 
         string cadena;
         int a, E, i, o, u;//contadores de las vocales
+        public void pangrama()
+        {
+            String[] cadenasParaProbar = { "Mi hijo degustó en el festival de bayas una extraña pizza de kiwi con queso",
+                "Hola",
+                "El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja",
+                "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ", // Debería ser true
+                "ABCDEFGHIJKLMNÑOPQRSTUVWXY", // Sin Z
+        };
+            int i;
+            for (i = 0; i < cadenasParaProbar.Length; i++)
+            {
+                Console.WriteLine("Fragmento {0} = {1}", (i + 1), cadenasParaProbar[i]);
+            }
+            foreach (var cadena in cadenasParaProbar)
+            {
+                Console.WriteLine(esPangrama(cadena));
+                lblPangrama.Text = Convert.ToString(esPangrama(cadena));
+            }
+        }
+
+        public static bool esPangrama(String cadena)
+        {
+            cadena = cadena.ToUpper(); // Convertir a mayúscula para simplificar comparaciones
+            String letrasDelAlfabeto = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
+            for (int x = 0; x < letrasDelAlfabeto.Length; x++)
+            {
+                if (!cadena.Contains(Convert.ToString(letrasDelAlfabeto[x])))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+        private void btnPangrama_Click(object sender, EventArgs e)
+        {
+            pangrama();
+        }
+
         private void btnComprobar_Click(object sender, EventArgs e)
         {
             cadena = txtCadena.Text;//almacenar cadena del cuadro de texto
