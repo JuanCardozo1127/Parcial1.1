@@ -71,9 +71,9 @@ namespace Parcial1._1
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(23, 66);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 13);
+            this.label1.Size = new System.Drawing.Size(64, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Número 1";
+            this.label1.Text = "NUMERO 1";
             // 
             // txtN1
             // 
@@ -92,29 +92,29 @@ namespace Parcial1._1
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 115);
+            this.label2.Location = new System.Drawing.Point(23, 115);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 13);
+            this.label2.Size = new System.Drawing.Size(64, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Número 2 ";
+            this.label2.Text = "NUMERO 2";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(71, 26);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(127, 13);
+            this.label3.Size = new System.Drawing.Size(180, 13);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Ingrese 2 número enteros";
+            this.label3.Text = "INGRESE 2 NUMEROS ENTEROS ";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // btnNumMayor
             // 
             this.btnNumMayor.Location = new System.Drawing.Point(26, 162);
             this.btnNumMayor.Name = "btnNumMayor";
-            this.btnNumMayor.Size = new System.Drawing.Size(100, 23);
+            this.btnNumMayor.Size = new System.Drawing.Size(100, 42);
             this.btnNumMayor.TabIndex = 6;
-            this.btnNumMayor.Text = "Mostrar el mayor";
+            this.btnNumMayor.Text = "MOSTRAR EL MAYOR";
             this.btnNumMayor.UseVisualStyleBackColor = true;
             this.btnNumMayor.Click += new System.EventHandler(this.btnNumMayor_Click);
             // 
@@ -131,9 +131,9 @@ namespace Parcial1._1
             // 
             this.btnLimpiar.Location = new System.Drawing.Point(145, 162);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
+            this.btnLimpiar.Size = new System.Drawing.Size(75, 42);
             this.btnLimpiar.TabIndex = 8;
-            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.Text = "LIMPIAR";
             this.btnLimpiar.UseVisualStyleBackColor = true;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
