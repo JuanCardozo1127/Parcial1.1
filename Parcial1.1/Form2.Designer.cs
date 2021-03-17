@@ -41,11 +41,13 @@ namespace Parcial1._1
             this.label6 = new System.Windows.Forms.Label();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnSiguiente = new System.Windows.Forms.Button();
+            this.btnsuma = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(16, 125);
+            this.btnCalcular.Location = new System.Drawing.Point(16, 109);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(75, 23);
             this.btnCalcular.TabIndex = 0;
@@ -96,7 +98,7 @@ namespace Parcial1._1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(608, 125);
+            this.button1.Location = new System.Drawing.Point(633, 71);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 6;
@@ -107,7 +109,7 @@ namespace Parcial1._1
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(505, 12);
+            this.label4.Location = new System.Drawing.Point(556, 12);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(46, 13);
             this.label4.TabIndex = 7;
@@ -115,7 +117,7 @@ namespace Parcial1._1
             // 
             // txtPalabra
             // 
-            this.txtPalabra.Location = new System.Drawing.Point(557, 9);
+            this.txtPalabra.Location = new System.Drawing.Point(608, 9);
             this.txtPalabra.Name = "txtPalabra";
             this.txtPalabra.Size = new System.Drawing.Size(100, 20);
             this.txtPalabra.TabIndex = 9;
@@ -123,7 +125,7 @@ namespace Parcial1._1
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(505, 45);
+            this.label6.Location = new System.Drawing.Point(556, 45);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(10, 13);
             this.label6.TabIndex = 11;
@@ -131,7 +133,7 @@ namespace Parcial1._1
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(335, 125);
+            this.btnLimpiar.Location = new System.Drawing.Point(12, 266);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
             this.btnLimpiar.TabIndex = 12;
@@ -141,7 +143,7 @@ namespace Parcial1._1
             // 
             // btnSiguiente
             // 
-            this.btnSiguiente.Location = new System.Drawing.Point(775, 125);
+            this.btnSiguiente.Location = new System.Drawing.Point(760, 266);
             this.btnSiguiente.Name = "btnSiguiente";
             this.btnSiguiente.Size = new System.Drawing.Size(75, 23);
             this.btnSiguiente.TabIndex = 13;
@@ -149,11 +151,32 @@ namespace Parcial1._1
             this.btnSiguiente.UseVisualStyleBackColor = true;
             this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
             // 
+            // btnsuma
+            // 
+            this.btnsuma.Location = new System.Drawing.Point(314, 230);
+            this.btnsuma.Name = "btnsuma";
+            this.btnsuma.Size = new System.Drawing.Size(75, 23);
+            this.btnsuma.TabIndex = 14;
+            this.btnsuma.Text = "Suma Dificil";
+            this.btnsuma.UseVisualStyleBackColor = true;
+            this.btnsuma.Click += new System.EventHandler(this.btnsuma_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(311, 193);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(64, 13);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "La suma es:";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(873, 160);
+            this.ClientSize = new System.Drawing.Size(847, 301);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.btnsuma);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.label6);
@@ -187,5 +210,7 @@ namespace Parcial1._1
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.Button btnSiguiente;
+        private System.Windows.Forms.Button btnsuma;
+        private System.Windows.Forms.Label label5;
     }
 }

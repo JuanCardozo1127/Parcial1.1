@@ -39,20 +39,20 @@ namespace Parcial1._1
             this.lblResultado = new System.Windows.Forms.Label();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txtCadena = new System.Windows.Forms.TextBox();
-            this.txtA = new System.Windows.Forms.TextBox();
-            this.txtU = new System.Windows.Forms.TextBox();
-            this.txtO = new System.Windows.Forms.TextBox();
-            this.txtI = new System.Windows.Forms.TextBox();
-            this.txtE = new System.Windows.Forms.TextBox();
-            this.btnComprobar = new System.Windows.Forms.Button();
             this.btnNuevo = new System.Windows.Forms.Button();
+            this.btnComprobar = new System.Windows.Forms.Button();
+            this.txtE = new System.Windows.Forms.TextBox();
+            this.txtI = new System.Windows.Forms.TextBox();
+            this.txtO = new System.Windows.Forms.TextBox();
+            this.txtU = new System.Windows.Forms.TextBox();
+            this.txtA = new System.Windows.Forms.TextBox();
+            this.txtCadena = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,7 +62,7 @@ namespace Parcial1._1
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Form 2";
+            this.button1.Text = "SIGUIENTE";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -160,102 +160,15 @@ namespace Parcial1._1
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "CONTAR VOCAL";
             // 
-            // label4
+            // btnNuevo
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(63, 90);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(14, 13);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "A";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(124, 90);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(14, 13);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "E";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(180, 90);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(10, 13);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "I";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(231, 90);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(15, 13);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "O";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(288, 90);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(15, 13);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "U";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(26, 41);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(51, 13);
-            this.label9.TabIndex = 5;
-            this.label9.Text = "CADENA";
-            // 
-            // txtCadena
-            // 
-            this.txtCadena.Location = new System.Drawing.Point(83, 38);
-            this.txtCadena.Name = "txtCadena";
-            this.txtCadena.Size = new System.Drawing.Size(220, 20);
-            this.txtCadena.TabIndex = 6;
-            // 
-            // txtA
-            // 
-            this.txtA.Location = new System.Drawing.Point(52, 106);
-            this.txtA.Name = "txtA";
-            this.txtA.Size = new System.Drawing.Size(48, 20);
-            this.txtA.TabIndex = 7;
-            // 
-            // txtU
-            // 
-            this.txtU.Location = new System.Drawing.Point(268, 106);
-            this.txtU.Name = "txtU";
-            this.txtU.Size = new System.Drawing.Size(48, 20);
-            this.txtU.TabIndex = 8;
-            // 
-            // txtO
-            // 
-            this.txtO.Location = new System.Drawing.Point(214, 106);
-            this.txtO.Name = "txtO";
-            this.txtO.Size = new System.Drawing.Size(48, 20);
-            this.txtO.TabIndex = 9;
-            // 
-            // txtI
-            // 
-            this.txtI.Location = new System.Drawing.Point(160, 106);
-            this.txtI.Name = "txtI";
-            this.txtI.Size = new System.Drawing.Size(48, 20);
-            this.txtI.TabIndex = 10;
-            // 
-            // txtE
-            // 
-            this.txtE.Location = new System.Drawing.Point(106, 106);
-            this.txtE.Name = "txtE";
-            this.txtE.Size = new System.Drawing.Size(48, 20);
-            this.txtE.TabIndex = 11;
+            this.btnNuevo.Location = new System.Drawing.Point(214, 156);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(89, 23);
+            this.btnNuevo.TabIndex = 13;
+            this.btnNuevo.Text = "NUEVO";
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // btnComprobar
             // 
@@ -267,15 +180,102 @@ namespace Parcial1._1
             this.btnComprobar.UseVisualStyleBackColor = true;
             this.btnComprobar.Click += new System.EventHandler(this.btnComprobar_Click);
             // 
-            // btnNuevo
+            // txtE
             // 
-            this.btnNuevo.Location = new System.Drawing.Point(214, 156);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(89, 23);
-            this.btnNuevo.TabIndex = 13;
-            this.btnNuevo.Text = "NUEVO";
-            this.btnNuevo.UseVisualStyleBackColor = true;
-            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            this.txtE.Location = new System.Drawing.Point(106, 106);
+            this.txtE.Name = "txtE";
+            this.txtE.Size = new System.Drawing.Size(48, 20);
+            this.txtE.TabIndex = 11;
+            // 
+            // txtI
+            // 
+            this.txtI.Location = new System.Drawing.Point(160, 106);
+            this.txtI.Name = "txtI";
+            this.txtI.Size = new System.Drawing.Size(48, 20);
+            this.txtI.TabIndex = 10;
+            // 
+            // txtO
+            // 
+            this.txtO.Location = new System.Drawing.Point(214, 106);
+            this.txtO.Name = "txtO";
+            this.txtO.Size = new System.Drawing.Size(48, 20);
+            this.txtO.TabIndex = 9;
+            // 
+            // txtU
+            // 
+            this.txtU.Location = new System.Drawing.Point(268, 106);
+            this.txtU.Name = "txtU";
+            this.txtU.Size = new System.Drawing.Size(48, 20);
+            this.txtU.TabIndex = 8;
+            // 
+            // txtA
+            // 
+            this.txtA.Location = new System.Drawing.Point(52, 106);
+            this.txtA.Name = "txtA";
+            this.txtA.Size = new System.Drawing.Size(48, 20);
+            this.txtA.TabIndex = 7;
+            // 
+            // txtCadena
+            // 
+            this.txtCadena.Location = new System.Drawing.Point(83, 38);
+            this.txtCadena.Name = "txtCadena";
+            this.txtCadena.Size = new System.Drawing.Size(220, 20);
+            this.txtCadena.TabIndex = 6;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(26, 41);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(51, 13);
+            this.label9.TabIndex = 5;
+            this.label9.Text = "CADENA";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(288, 90);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(15, 13);
+            this.label8.TabIndex = 4;
+            this.label8.Text = "U";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(231, 90);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(15, 13);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "O";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(180, 90);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(10, 13);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "I";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(124, 90);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(14, 13);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "E";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(63, 90);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(14, 13);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "A";
             // 
             // Form1
             // 

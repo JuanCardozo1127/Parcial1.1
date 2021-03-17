@@ -19,6 +19,7 @@ namespace Parcial1._1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form formulario = new Form2();
             formulario.Show();
         }
