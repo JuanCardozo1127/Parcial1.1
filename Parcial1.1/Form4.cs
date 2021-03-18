@@ -30,7 +30,7 @@ namespace Parcial1._1
         {
             this.Hide();
 
-            Form1 frm = new Form1();
+            Form5 frm = new Form5();
 
             frm.Show();
         }
